@@ -10,7 +10,7 @@ from invenio_i18n import lazy_gettext as _
 from invenio_rdm_records.resources.serializers import (
     DataCite45JSONSerializer,  # pyright: ignore[reportAttributeAccessIssue]
 )
-
+# ---
 from oarepo_doi.services.providers.client import DataCiteRecordAwareClient
 from oarepo_doi.services.providers.provider import DataCiteRecordAwareProvider
 from oarepo_doi.settings import facets
